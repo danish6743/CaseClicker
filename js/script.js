@@ -15,7 +15,7 @@ if (localStorage.getItem("imgData") === null) {
 }
 
 var currentCase = "case1";
-var acceptMoneyPerClick = 0.1;
+var acceptMoneyPerClick = 100;
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
@@ -34,7 +34,7 @@ var acceptedsound = true;
 var inventory = {};
 var jackpotInventory = {};
 
-var inventoryMax = 50;
+var inventoryMax = 10000;
 var inventoryCurrent = 0;
 
 var keyPrice = 2.50;
